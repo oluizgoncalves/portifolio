@@ -1,0 +1,184 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+.profile-img
+{
+    width: 40%;
+    height: 960px;
+    float: right;
+}
+
+
+
+.about
+{
+    margin-left: 15px;
+}
+
+.profile-info
+{
+    width: 60%;
+    height: 100vh;
+    float: left;
+    padding: 0 30px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.profile-info::-webkit-scrollbar
+{
+    width: 0px;
+}
+
+.profile-info h1
+{
+    margin-top: 75px;
+    margin-bottom: 30px;
+    
+}
+
+.social-media img
+{
+    transition: 0.5s;
+    height: 33px;
+    margin-right: 15px;
+}
+
+.social-media
+{
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.profile-info h2
+{
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.expertise img
+{
+    height: 110px;
+    margin: 5px;
+}
+
+.expertise
+{
+    filter: invert(90%);
+    transition: 0.3s;
+    display: inline-block;
+    width: 28%;
+    padding: 30px 10px;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin: 2%;
+    text-align: center;
+    box-shadow: 0 0 15px 1px rgba(37,73, 214, 0.18);
+    background: #fff;
+}
+
+.expertise small
+{
+    text-align: left;
+    padding-top: 10px;
+    display: block;
+}
+
+.projects img
+{
+    filter: grayscale(100%);
+    box-shadow: 0 0 5px 0px rgba(37,73, 214, 0.18);
+    transition: 0.3s;
+    width: 31%;
+    padding: 4px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.contact img
+{
+    width: 20px;
+    margin: -5px 10px;
+}
+
+.contact span
+{
+    margin:5px;
+}
+
+
+
+.contact
+{
+    padding-left: 47px;
+ 
+    margin: 5% 0 5% 25%;
+    width: 65%;
+}
+
+.copyright
+{
+    padding-left: 82px;
+    margin-top: 90px;
+
+}
+
+.mouselink
+{
+    border-radius: 100%;
+    transform: scale(1.2)
+}
+
+.mouseover
+{
+    filter: grayscale(0%) !important; 
+    transform: scale(1.2)
+}
+
+
+@media only screen and (max-width:900px)
+{
+    .profile-info
+    {
+        width: 100%;
+        overflow: inherit;
+    }
+
+    .profile-img
+    {
+        height: 100%;
+        width: 50%;
+    }
+
+    .expertise
+    {
+        width: 95%;
+        margin-bottom: 10%;
+    }
+
+    .expertise img 
+    {
+        height: 50px;
+        margin: 10px 0;
+    }
+
+    .projects img
+    {
+        width: 47%
+    }
+
+    .span
+    {
+        display: block;
+    }
+}
